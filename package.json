@@ -8,6 +8,12 @@
 		"lint": "ESLINT_USE_FLAT_CONFIG=true eslint .",
 		"test": "ava"
 	},
+	"files": [
+		"index.js",
+		"README.md",
+		"LICENSE",
+		"package.json"
+	],
 	"keywords": [
 		"eslint",
 		"eslintconfig"
