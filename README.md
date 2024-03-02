@@ -44,17 +44,25 @@ export default {
 };
 ```
 
-```
+```bash
 ESLINT_USE_FLAT_CONFIG=true npx eslint
+```
+
+If you are using VSCode set the following in your settings:
+
+```json
+{ "eslint.experimental.useFlatConfig": true }
 ```
 
 ## Development
 
-tbd...
+- Add good rules to `index.js`
 
 ## Tests
 
-tbd...
+```bash
+npm t
+```
 
 ## Contributing
 
