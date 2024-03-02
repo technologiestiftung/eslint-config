@@ -1,0 +1,56 @@
+{
+	"name": "@technologiestiftung/eslint-config",
+	"version": "0.1.0",
+	"description": "ESLint shareable config for @technologiestiftung",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"lint": "ESLINT_USE_FLAT_CONFIG=true eslint .",
+		"test": "ava"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"author": "ff6347 <hash@ff6347.email>",
+	"license": "MIT",
+	"peerDependencies": {
+		"eslint": ">= 8.57.0"
+	},
+	"ava": {
+		"files": [
+			"test/test.js",
+			"!test/files"
+		]
+	},
+	"prettier": {
+		"tabWidth": 2,
+		"semi": true,
+		"singleQuote": false,
+		"useTabs": true,
+		"printWidth": 80,
+		"overrides": [
+			{
+				"files": [
+					"*.yml",
+					"*.yaml"
+				],
+				"options": {
+					"useTabs": false
+				}
+			}
+		]
+	},
+	"devDependencies": {
+		"@technologiestiftung/semantic-release-config": "1.2.4",
+		"@types/eslint": "8.56.5",
+		"ava": "6.1.2",
+		"eslint": "8.57.0",
+		"prettier": "3.2.5",
+		"semantic-release": "23.0.2"
+	},
+	"dependencies": {
+		"@eslint/js": "8.57.0",
+		"typescript-eslint": "7.1.0"
+	}
+}

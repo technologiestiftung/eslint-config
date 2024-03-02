@@ -6,52 +6,47 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# {repo-template}
+# Sharable eslint config for @technologiestiftung
 
-## TODO (after you generated the repo)
+This is a sharable eslint config for the @technologiestiftung organization. Still WIP
+The idea here is to start out with a flat config but still be backwards compatible with the old config. So our team does not have to set the env variable `ESLINT_USE_FLAT_CONFIG=true` but can just reference this config as extend in the old config style.
 
-- [ ] Review the content of the README.md and adjust to your liking
-- [ ] Read the README.md till the end and adjust the content licensing,
-      logos, etc (I know you stopped at tbd...)
-- [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
-- [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
-- [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
+The rules we apply should also be only for coding style not formatting. We should use prettier for that.
 
-```json
-{
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>technologiestiftung/renovate-config"],
-	"baseBranches": ["staging"]
-}
-```
+## TODO
 
-- [ ] Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
-
-```bash
-npx all-contributors-cli check
-npx all-contributors-cli add ff6347 doc
-```
-
-You can use it on GitHub just by commenting on PRs and issues:
-
-```plain
-@all-contributors please add @ff6347 for infrastructure, tests and code
-```
-
-- [ ] Add your project description
-- [ ] Get fancy shields at https://shields.io
+- [ ] Figure out how we can leverage the flat config already and be backwards compatible
+- [ ] Add relevant rules
+- [x] Figure out how we can use this for javascript and typescript projects
+- [ ] Add tests
 
 ## Prerequisites
 
-tbd...
+- Node.js
+- eslint
 
 ## Installation
 
-tbd...
+npm install @technologiestiftung/eslint-config --save-dev
 
-## Usage or Deployment
+## Usage
 
-tbd...
+In your `eslint.config.js` file, add the following:
+
+```javascript
+import technologiestiftung from "@technologiestiftung/eslint-config";
+
+export default {
+	...technologiestiftung,
+	rules: {
+		// your rules here
+	},
+};
+```
+
+```
+ESLINT_USE_FLAT_CONFIG=true npx eslint
+```
 
 ## Development
 
