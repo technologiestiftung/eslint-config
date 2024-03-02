@@ -8,8 +8,25 @@
 
 # Sharable eslint config for @technologiestiftung
 
-This is a sharable eslint config for the @technologiestiftung organization. Still WIP
-The idea here is to start out with a flat config but still be backwards compatible with the old config. So our team does not have to set the env variable `ESLINT_USE_FLAT_CONFIG=true` but can just reference this config as extend in the old config style.
+This is a sharable eslint config for the @technologiestiftung organization. Should be the basis for JS and TS. Still WIP
+
+The idea here is to start out with a flat config but still be backwards compatible with the old config. So our team does not have to set the env variable `ESLINT_USE_FLAT_CONFIG=true` but can just reference this config as extend in the old config style if they need to.
+
+Solution might be:
+
+```bash
+npx esbuild index.js --outfile=index.cjs --platform=node --format=cjs
+```
+
+And in package.json:
+
+```json
+{
+	"main": "index.cjs",
+	"module": "index.js",
+	"type": "module"
+}
+```
 
 The rules we apply should also be only for coding style not formatting. We should use prettier for that.
 
