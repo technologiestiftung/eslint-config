@@ -29,6 +29,9 @@
 			"!test/files"
 		]
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"prettier": {
 		"tabWidth": 2,
 		"semi": true,
