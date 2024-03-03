@@ -10,32 +10,17 @@
 
 This is a sharable eslint config for the @technologiestiftung organization. Should be the basis for JS and TS. Still WIP
 
-The idea here is to start out with a flat config but still be backwards compatible with the old config. So our team does not have to set the env variable `ESLINT_USE_FLAT_CONFIG=true` but can just reference this config as extend in the old config style if they need to.
-
-Solution might be:
-
-```bash
-npx esbuild index.js --outfile=index.cjs --platform=node --format=cjs
-```
-
-And in package.json:
-
-```json
-{
-	"main": "index.cjs",
-	"module": "index.js",
-	"type": "module"
-}
-```
+~~The idea here is to start out with a flat config but still be backwards compatible with the old config. So our team does not have to set the env variable `ESLINT_USE_FLAT_CONFIG=true` but can just reference this config as extend in the old config style if they need to.~~
+After some testing it is not that easy to turn the config from flat file to commonjs. Since the old config will be deprecated soon with the release of eslint 9.0 this is actually to much effort. So we will just use the flat config and be done with it. \o/
 
 The rules we apply should also be only for coding style not formatting. We should use prettier for that.
 
 ## TODO
 
-- [ ] Figure out how we can leverage the flat config already and be backwards compatible
-- [ ] Add relevant rules
+- [ ] Add more relevant rules
 - [x] Figure out how we can use this for javascript and typescript projects
-- [ ] Add tests
+- [x] Add tests
+- [ ] ~~Figure out how we can leverage the flat config already and be backwards compatible~~
 
 ## Prerequisites
 
@@ -53,12 +38,12 @@ In your `eslint.config.js` file, add the following:
 ```javascript
 import technologiestiftung from "@technologiestiftung/eslint-config";
 
-export default {
-	...technologiestiftung,
+export default [
+  ...technologiestiftung,
 	rules: {
-		// your rules here
-	},
-};
+    // your rules here
+	}
+]
 ```
 
 ```bash
