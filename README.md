@@ -58,6 +58,43 @@ If you are using VSCode set the following in your settings:
 { "eslint.experimental.useFlatConfig": true }
 ```
 
+## Examples
+
+Since we work on frontend and backend and this config is still WIP we provide some examples on how to use this config in different projects.
+
+### Frontend with React
+
+```bash
+npm i globals eslint-plugin-react --save-dev
+```
+
+Then add this to your `eslint.config.js`.
+
+```javascript
+import globals from "globals";
+import technologiestiftung from "@technologiestiftung/eslint-config";
+import react from "eslint-plugin-react";
+
+export default [
+	...technologiestiftung,
+	{
+		files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
+		languageOptions: {
+			parserOptions: {
+				ecmaFeatures: {
+					jsx: true,
+				},
+			},
+			globals: {
+				...globals.browser,
+			},
+		},
+		rules: {},
+		plugins: { react },
+	},
+];
+```
+
 ## Development
 
 - Add good rules to `index.js`
