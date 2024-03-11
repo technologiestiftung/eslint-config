@@ -39,11 +39,13 @@ In your `eslint.config.js` file, add the following:
 import technologiestiftung from "@technologiestiftung/eslint-config";
 
 export default [
-  ...technologiestiftung,
-	rules: {
-    // your rules here
-	}
-]
+	...technologiestiftung,
+	{
+		rules: {
+			// your rules here
+		},
+	},
+];
 ```
 
 ```bash
