@@ -11,7 +11,7 @@ export default tseslint.config(
 		rules: {
 			"prefer-const": "error",
 			curly: "error",
-			"no-console": "error",
+			"no-console": ["error", { allow: ["warn", "error"] }],
 			"no-undef": "error",
 			"no-var": "error",
 			//FIXME: default case not working?
