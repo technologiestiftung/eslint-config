@@ -24,7 +24,7 @@ export default tseslint.config(
 			"max-depth": ["error", 4],
 			"max-lines": ["error", 150],
 			"max-params": ["error", 3],
-			complexity: ["error", 3],
+			complexity: ["error", 20],
 			"new-cap": ["error", { newIsCap: true }],
 			"no-else-return": "error",
 			"no-eval": "error",
