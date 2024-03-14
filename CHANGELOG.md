@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/technologiestiftung/eslint-config/compare/v0.1.2...v0.1.3) (2024-03-14)
+
+
+### Bug Fixes
+
+* **console:** error and warn calls are fine ([81ec30d](https://github.com/technologiestiftung/eslint-config/commit/81ec30d8dbf4d1e02d89152f0b0d3a6c33a87bfd))
+
 ## [0.1.2](https://github.com/technologiestiftung/eslint-config/compare/v0.1.1...v0.1.2) (2024-03-11)
 
 
