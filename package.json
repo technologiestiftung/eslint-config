@@ -1,6 +1,6 @@
 {
 	"name": "@technologiestiftung/eslint-config",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "ESLint shareable config for @technologiestiftung",
 	"main": "index.js",
 	"type": "module",

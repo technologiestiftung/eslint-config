@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/technologiestiftung/eslint-config/compare/v0.1.3...v0.1.4) (2024-03-14)
+
+
+### Bug Fixes
+
+* **complexity:** Set to default of 20 ([868140f](https://github.com/technologiestiftung/eslint-config/commit/868140f333d9ef2a1e7ea24a072d13a9770d1fc6))
+
 ## [0.1.3](https://github.com/technologiestiftung/eslint-config/compare/v0.1.2...v0.1.3) (2024-03-14)
 
 
