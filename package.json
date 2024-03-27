@@ -52,11 +52,11 @@
 	},
 	"devDependencies": {
 		"@technologiestiftung/semantic-release-config": "1.2.4",
-		"@types/eslint": "8.56.5",
+		"@types/eslint": "8.56.6",
 		"ava": "6.1.2",
 		"eslint": "8.57.0",
 		"prettier": "3.2.5",
-		"semantic-release": "23.0.2"
+		"semantic-release": "23.0.6"
 	},
 	"dependencies": {
 		"@eslint/js": "8.57.0",
