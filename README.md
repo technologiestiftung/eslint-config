@@ -29,7 +29,9 @@ The rules we apply should also be only for coding style not formatting. We shoul
 
 ## Installation
 
+```bash
 npm install @technologiestiftung/eslint-config --save-dev
+```
 
 ## Usage
 
