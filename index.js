@@ -22,7 +22,6 @@ export default tseslint.config(
 			eqeqeq: "error",
 			"func-style": ["error", "declaration", { allowArrowFunctions: true }],
 			"max-depth": ["error", 4],
-			"max-lines": ["error", 150],
 			"max-params": ["error", 3],
 			complexity: ["error", 20],
 			"new-cap": ["error", { newIsCap: true }],
