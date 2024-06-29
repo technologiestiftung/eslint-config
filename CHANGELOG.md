@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/technologiestiftung/eslint-config/compare/v0.1.4...v0.2.0) (2024-06-29)
+
+
+### Features
+
+* **rule:** Remove max lines rule ([67d4e98](https://github.com/technologiestiftung/eslint-config/commit/67d4e98b9ce45da9e44d0f95182de6b6210b7df8))
+
 ## [0.1.4](https://github.com/technologiestiftung/eslint-config/compare/v0.1.3...v0.1.4) (2024-03-14)
 
 
