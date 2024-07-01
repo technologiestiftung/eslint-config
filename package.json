@@ -25,9 +25,7 @@
 	},
 	"ava": {
 		"files": [
-			"test/test.js",
-			"test/*.test.mjs",
-			"!test/files"
+			"test/*.test.mjs"
 		]
 	},
 	"publishConfig": {
