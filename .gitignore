@@ -272,3 +272,4 @@ cython_debug/
 #.idea/
 .envrc
 .vscode/settings.json
+.idea
