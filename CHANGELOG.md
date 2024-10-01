@@ -1,3 +1,17 @@
+# [0.3.0](https://github.com/technologiestiftung/eslint-config/compare/v0.2.0...v0.3.0) (2024-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @eslint/js to v9 ([0c2cc27](https://github.com/technologiestiftung/eslint-config/commit/0c2cc274ccd3c681c568a3b6561f2e96b67af952))
+* error during rebase ([453d6d9](https://github.com/technologiestiftung/eslint-config/commit/453d6d94bc49360ccec69b926042da107d4e65e0))
+* Give our ruleset a name ([67f72a8](https://github.com/technologiestiftung/eslint-config/commit/67f72a82f46734d4130e34c1b4b102a7ddfb86c7))
+
+
+### Features
+
+* **eslint 9:** Update package to use latest eslint ([b602da4](https://github.com/technologiestiftung/eslint-config/commit/b602da412c77787d31ee76f947ad6cc819011800))
+
 # [0.2.0](https://github.com/technologiestiftung/eslint-config/compare/v0.1.4...v0.2.0) (2024-06-29)
 
 
