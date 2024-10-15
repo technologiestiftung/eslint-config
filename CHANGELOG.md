@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/technologiestiftung/eslint-config/compare/v0.3.0...v0.3.1) (2024-10-15)
+
+
+### Bug Fixes
+
+* move some devdependencies to normal dependencies ([a192bf0](https://github.com/technologiestiftung/eslint-config/commit/a192bf0940425b65f435731f6387b15bcb771fc7))
+
 # [0.3.0](https://github.com/technologiestiftung/eslint-config/compare/v0.2.0...v0.3.0) (2024-10-01)
 
 
