@@ -40,6 +40,7 @@ export default tseslint.config(
 			"no-shadow": "error",
 			"no-throw-literal": "error",
 			"no-unneeded-ternary": "error",
+			"prefer-template": "error",
 			// Note: you must disable the base rule as it can report incorrect errors
 			"no-unused-vars": "off",
 			"@typescript-eslint/no-unused-vars": [
