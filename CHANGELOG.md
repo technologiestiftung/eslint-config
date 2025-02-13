@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/technologiestiftung/eslint-config/compare/v0.3.1...v0.4.0) (2025-02-13)
+
+
+### Features
+
+* add prefer-template rule ([c793d43](https://github.com/technologiestiftung/eslint-config/commit/c793d43c07e06a9da81156f7b9d455d94f17a197))
+
 ## [0.3.1](https://github.com/technologiestiftung/eslint-config/compare/v0.3.0...v0.3.1) (2024-10-15)
 
 
