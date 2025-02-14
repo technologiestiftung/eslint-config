@@ -10,6 +10,18 @@ export default tseslint.config(
 	{
 		name: "technologiestiftung/eslint-config",
 		rules: {
+			"@typescript-eslint/no-unused-vars": [
+				"error",
+				{
+					args: "all",
+					argsIgnorePattern: "^_",
+					caughtErrors: "all",
+					caughtErrorsIgnorePattern: "^_",
+					destructuredArrayIgnorePattern: "^_",
+					varsIgnorePattern: "^_",
+					ignoreRestSiblings: true,
+				},
+			],
 			"prefer-const": "error",
 			curly: "error",
 			"no-console": ["error", { allow: ["warn", "error"] }],
