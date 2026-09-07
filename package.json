@@ -32,8 +32,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@eslint/js": "9.36.0",
-		"typescript-eslint": "8.45.0"
+		"@eslint/js": "9.39.5",
+		"typescript-eslint": "8.68.0"
 	},
 	"devDependencies": {
 		"@technologiestiftung/semantic-release-config": "1.2.4",
